@@ -35,12 +35,24 @@ By Exevenezia  *  http://exevenezia.blogspot.com.ar/  -->
             <div data-role="content" class="ui-content">
                 <p>Poniendo link en los header se convierten en botones</p>
                 <p>El primer link escrito va la izquierda y el segundo link va a la derecha</p>
+                <p>Para poner una barra de botones en el footer</p>
+                <p>Se pone un data-role navbar en el div del data-role footer con una lista desordenada "ul" con link en cada "li" </p>
+                <p>Formando botones hasta 5 en la misma fila de la barra</p>
             </div>
             <footer data-role="footer" class="ui-bar" data-position="fixed">
+            <!--Para poner botones en el Pie de Pagina Con un div data-role="navbar" adentro de un data-role="footer" entonces crea una barra de navegacion de botones que se codifica como una lista desordenada "<ul>" de enlaces en fomar de botones, el maximo que soporta hasta 5 botones en un encabezado o pie de pagina mas de eso la barra se convierte como si fuera una tabla en filas y dos columnas  -->
                 <div data-role="navbar">
                     <ul>
                         <li><a href="#" data-icon="info">Informacion</a></li>
                           <li><a href="#" data-icon="alert">Reporte</a></li>
+                          <li><a href="#" data-icon="plus">Otro 1</a></li>
+                          <li><a href="#" data-icon="gear">Otro 2</a></li>
+                          <li><a href="#" data-icon="minus">Otro 3</a></li>
+                          <!-- "
+                           <li><a href="#" data-icon="alert">Reporte</a></li>
+                          <li><a href="#" data-icon="plus">Otro 1</a></li>
+                          <li><a href="#" data-icon="gear">Otro 2</a></li>
+                          <li><a href="#" data-icon="minus">Otro 3</a></li> -->
                     </ul>
                 </div><!-- /navbar -->
                 <h4>Copyright &copy; 2014</h4>
